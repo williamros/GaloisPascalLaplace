@@ -11,6 +11,7 @@ by Gabriel Andrada @ Iset55
  LAPLACE
 
 """
+cont = 1
 
 while(1):
   dataset = [0,1,2,3,4,5,6,7,8,9]
@@ -51,6 +52,8 @@ while(1):
     print("galois = ",galois)
     print("pascal = ",pascal)
     print("laplace = ",laplace)
+    print("------------------------------------")
     break
   else:
-    print("[X] Fuck!")
+    print("[X] Fuck! - Intento numero: {}".format(cont))
+    cont += 1
